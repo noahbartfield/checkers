@@ -1,0 +1,32 @@
+
+
+.board {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 800px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.white, .black {
+    /* flex-basis: 12%; */
+    height: 100px;
+    width: 100px;
+}
+
+.black {
+    background-color: black;
+}
+
+.redPiece {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+}
+.blackPiece {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border-radius: 50%;
+}
